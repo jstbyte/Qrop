@@ -1,0 +1,28 @@
+{
+  "name": "qrop",
+  "version": "1.0.0",
+  "description": "Quickly Crop Image By Right Click.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A29sTech/Qrop.git"
+  },
+  "keywords": [
+    "Image-Croper\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[DQuick\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b"
+  ],
+  "author": "A29sTech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A29sTech/Qrop/issues"
+  },
+  "homepage": "https://github.com/A29sTech/Qrop#readme",
+  "devDependencies": {
+    "electron": "^6.0.10"
+  },
+  "dependencies": {
+    "cropperjs": "^1.5.5"
+  }
+}

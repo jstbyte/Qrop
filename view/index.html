@@ -1,0 +1,51 @@
+<link  href="../node_modules/cropperjs/dist/cropper.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/awesome.css">
+<link rel="stylesheet" href="style.css">
+
+<div class="ar" id="rin">
+    <label for="w"></label>
+    <input class="inp" id="w" type="text" placeholder="Width Ratio">
+    <label for="h"></label>
+    <input class="inp" id="h" type="text" placeholder="Height Ratio">
+</div>
+
+<div id="container" class="photo-container">
+    <img id="img" alt="">
+</div>
+
+<div data-v-18686cfd="" class="toolbar">
+    <button id="move" data-v-18686cfd="" data-action="move" title="Move (M)" class="toolbar__button">
+        <span data-v-18686cfd="" class="fa fa-arrows"></span>
+    </button>
+    <button id="crop" data-v-18686cfd="" data-action="crop" title="Crop (C)" class="toolbar__button">
+        <span data-v-18686cfd="" class="fa fa-crop"></span>
+    </button>
+    <button id="zoomIn" data-v-18686cfd="" data-action="zoom-in" title="Zoom In (I)" class="toolbar__button">
+        <span data-v-18686cfd="" class="fa fa-search-plus"></span>
+    </button>
+    <button id="zoomOut" data-v-18686cfd="" data-action="zoom-out" title="Zoom Out (O)" class="toolbar__button">
+        <span data-v-18686cfd="" class="fa fa-search-minus"></span>
+    </button>
+    <button id="rotateLeft" data-v-18686cfd="" data-action="rotate-left" title="Rotate Left (L)" class="toolbar__button">
+        <span data-v-18686cfd="" class="fa fa-rotate-left"></span>
+    </button>
+    <button id="rotateRight" data-v-18686cfd="" data-action="rotate-right" title="Rotate Right (R)" class="toolbar__button">
+        <span data-v-18686cfd="" class="fa fa-rotate-right"></span>
+    </button>
+    <button id="setRatio" data-v-18686cfd="" data-action="flip-horizontal" title="Flip Horizontal (H)" class="toolbar__button">
+        <span data-v-18686cfd="" class="">R</span>
+    </button>
+    <button id="reset" data-v-18686cfd="" data-action="flip-vertical" title="Flip Vertical (V)" class="toolbar__button">
+        <span data-v-18686cfd="">C</span>
+    </button>
+
+    <style>
+        
+            
+    </style>
+</div>
+
+
+<script>
+    require("./index");
+</script>

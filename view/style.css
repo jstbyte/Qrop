@@ -1,0 +1,110 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.photo-container{
+    width: 100%;
+    height: 100%;
+}
+
+.btn{
+    position:fixed;
+    bottom: 5px;
+    left: 50px;
+    z-index: 999;
+}
+/* Default CSS Ends */
+
+
+.ar{
+    background-color: rgba(0,0,0,.5);
+    bottom: 1rem;
+    color: #fff;
+    height: 2rem;
+    left: 50%;
+    bottom: 48px;
+    margin-left: -8rem;
+    position: absolute;
+    width: 16rem;
+    z-index: 2015;
+    visibility: hidden;
+
+}
+.inp{
+    background-color: transparent;
+    border-width: 0;
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: .875rem;
+    width: 8rem;
+    height: 2rem;
+    text-align: center;
+}
+
+
+
+
+/*  Button  */
+.toolbar__button[data-v-18686cfd] {
+    background-color: transparent;
+    border-width: 0;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: .875rem;
+    height: 2rem;
+    text-align: center;
+    width: 2rem;
+}
+
+.toolbar[data-v-18686cfd] {
+    background-color: rgba(0,0,0,.5);
+    bottom: 1rem;
+    color: #fff;
+    height: 2rem;
+    left: 50%;
+    margin-left: -8rem;
+    position: absolute;
+    width: 16rem;
+    z-index: 2015;
+}
+
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: inherit;
+    line-height: 1;
+    font-family: FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.toolbar__button[data-v-18686cfd]:hover {
+    background-color: #0074d9;
+    color: #fff;
+}
+
+.toolbar__button[data-v-18686cfd]:focus {
+    outline: none;
+}
+
+#img{
+    width: 100%;
+}
