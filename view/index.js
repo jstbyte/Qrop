@@ -16,7 +16,13 @@ image.addEventListener("load",()=>{
 
 // Connect With Main Thread.
 ipcRenderer.on("GET_IMAGE", (event, data)=>{
-    image.src = "file:///"+ data;
+    if(canvas){
+        canvas.destroy();
+        image.src = "file:///"+ data;
+    }
+    else{
+        image.src = "file:///"+ data;
+    }
 });
 
 

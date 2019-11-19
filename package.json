@@ -4,7 +4,8 @@
   "description": "Quickly Crop Image By Right Click.",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package-win": "electron-packager . Qrop --overwrite --asar --platform=win32 --arch=ia32 --prune=true --out=release-builds --version-string.CompanyName=\"A29sTech\" --version-string.FileDescription=\" Dev : Jahidul Islam \" --version-string.ProductName=\"Qrop\""
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,8 @@
   },
   "homepage": "https://github.com/A29sTech/Qrop#readme",
   "devDependencies": {
-    "electron": "^6.0.10"
+    "electron": "^6.0.10",
+    "electron-packager": "^14.1.0"
   },
   "dependencies": {
     "cropperjs": "^1.5.5"
